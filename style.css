@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Fira Sans'; */
+}
+.A{
+    margin: 10px;
+    /* border: 2px solid; */
+    height: 1000vh;
+    background: #455a64;
+     position: relative;
+    z-index: -1;
+    
+}
+.B{
+    height: 1000vh;
+    /* width: 100%; */
+    position: absolute;
+    /* border: 2px solid; */
+    top: 50px;
+    left: 200px;
+    right: 200px;
+    background-color: white;  
+    z-index: -1;
+   
+}
+p{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+.E,.H,.I,.L,.O{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    padding-top: 20px;
+}
+.C{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    padding: 5px;
+}
+.p{
+    font-size: 1.7rem;
+    text-align: start;
+}
+.r{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.a{
+    color: red;
+    background-color: lightpink;
+    opacity: 0.3;
+}
+.D{
+    width: 50%;
+    /* border: 1px solid; */
+    height: 100%;
+    padding: 5px;
+}
+.D .q{
+    font-size: 1.7rem;
+ 
+}
+.D p{
+font-size: 1.2rem;
+text-align: justify;
+
+}
+
+header{
+    /* background-color: white; */
+    position: fixed;
+
+  
+
+}
+.icon{
+    height: 90px;
+    width: 90px;
+    background-color: #455a64;
+    color: white;
+    margin-top: 50px;
+    margin-left: 1320px;
+    border-radius: 50px;
+   
+}
+
+.code{
+    border: 1px solid lightslategray;
+    padding-left: 20px;
+    margin: 0 20px;
+    background-color: lightgray;
+}
+li{
+    font-size: 1.4rem;
+}
+ul,ol{
+    padding-left: 30px;
+}
+.G p{
+    font-size: 1.3rem;
+    text-align: start;
+}
+.G span{
+    color: blue;
+}
+.G img{
+    width: 500px;
+    padding-top: 5px;
+}
+.J,.K,.F,.G,.M,.N,.P,.Q{
+    width: 50%;
+    height: 100%;
+    padding: 5px; 
+}
+.J p,table{
+    font-size: 1.2rem;
+    text-align: start;
+}
+.Z,.P{
+    padding-left: 20px;
+}
+.M{
+    padding-left: 20px;
+}
+button{
+    height: 60px;
+    width: 75px;
+    padding: 5px;
+    margin-left:10px ;
+    background-color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+.button-1 button{
+    font-size: 15px;
+
+}
+.button-2 button{
+    font-size: small;
+}
+.button-3 button{
+    font-size: x-small;
+}
+.N img{
+    border: 1px solid grey;
+}
+.P span{
+    font-size: large;
+    font-weight: bold;
+}
